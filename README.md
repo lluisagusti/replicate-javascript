@@ -63,7 +63,7 @@ let prediction = await replicate.predictions.create({
 });
 ```
 
-Then fetch the prediction result later:
+Then fetch the prediction result later: 
 
 ```js
 prediction = await replicate.predictions.get(prediction.id);
